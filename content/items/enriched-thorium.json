@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Enriched Thorium",
+	"description": "A more pure version of thorium for more efficient nuclear reaction.",
+	"hardness": 4,
+	"cost": 1.5,
+	"explosiveness": 0.3,
+	"radioactivity": 2,
+	"color": "c4819e"
+}

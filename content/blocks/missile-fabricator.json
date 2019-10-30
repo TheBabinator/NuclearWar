@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Missile Fabricator",
+	"description": "Produces missile casing for loading.",
+	"outputItem": {"item": "missile-casing", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 320,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.4,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 10 },
+				{ "item": "plastanium", "amount": 4 },
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "plastanium", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "thorium-centrifuge",
+}

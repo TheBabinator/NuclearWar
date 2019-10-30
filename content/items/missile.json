@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Thorium Missile",
+	"description": "A missile loaded and ready for action. You wouldn't want this detonating in your base.",
+	"hardness": 2,
+	"explosiveness": 10,
+	"radioactivity": 0.4,
+	"color": "ff00ff"
+}

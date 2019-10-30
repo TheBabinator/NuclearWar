@@ -1,0 +1,41 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Missile Silo",
+	"description": "take a quick guess",
+	"health": 1170,
+	"size": 3,
+	"reload": 320,
+	"range": 860,
+	"targetAir": true,
+	"targetGround": true,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 0,
+	"rotatespeed": 4,
+	"shootSound": "artillery",
+	"ammo": {
+		"missile": {
+			"speed": 2,
+			"damage": 640,
+			"splashDamage": 320,
+			"splashDamageRadius": 160,
+			"collidesTiles": false,
+			"knockback": 1.6,
+			"lifetime": 420,
+			"bulletWidth": 14,
+			"bulletHeight": 18,
+			"homingPower": 0.2f,
+			"homingRange": 860,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"hitEffect": "nuclearShockwave"
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "plastanium", "amount": 40 }
+	],
+	"category": "turret",
+	"research": "swarmer"
+}

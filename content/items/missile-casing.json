@@ -1,0 +1,8 @@
+{
+	"type": "resource",
+	"name": "Missile Casing",
+	"description": "A shell that has room for a charge.",
+	"hardness": 2,
+	"explosiveness": 0.2,
+	"color": "989aa4"
+}

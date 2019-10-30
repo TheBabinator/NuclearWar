@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter",
+	"name": "Missile Loader",
+	"description": "Loads missiles with charge and fuel.",
+	"liquidCapacity": 16,
+	"outputItem": {"item": "missile", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.6,
+		"items": {
+			"items": [
+				{ "item": "missile-casing", "amount": 1 },
+				{ "item": "blast-compound", "amount": 2 },
+				{ "item": "enriched-thorium", "amount": 4 }
+			]
+		},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 2
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 60 },
+		{ "item": "thorium", "amount": 60 },
+		{ "item": "silicon", "amount": 80 },
+	],
+	"category": "crafting",
+	"research": "missile-fabricator",
+}
